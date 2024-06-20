@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: rgb(6, 6, 44);
+    color: white;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(107, 242, 242);
+    text-underline-offset: 3px;
+    cursor: pointer;
+}
+nav ul li a:active{
+    color: rgb(107, 242, 242);
+}
+.left{
+    font-size: 17px;
+font-weight: 700;
+font-family: cursive;
+font-style: italic;
+text-decoration: underline;
+text-decoration-color: rgb(107, 242, 242);
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(107, 242, 242) ;
+    font-size: 22px;
+    text-underline-offset: 9px;
+    text-shadow: 1px 0px rgb(107, 242, 242) ;
+}
+nav ul li:active{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(107, 242, 242) ;
+    font-size: 22px;
+    text-underline-offset: 9px;
+    text-shadow: 1px 0px rgb(107, 242, 242) ;
+}
+header hr{
+    color: rgb(107, 242, 242) ;
+height: 0.1px;
+margin-top: 19px;
+width: 100%;
+}
+#element{
+    color: rgb(107, 242, 242) ;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: cursive;
+}
+main .first .content{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: cursive;
+    width: 400px;
+}
+.my-image img{
+    filter: blur(1.5px);
+    box-shadow: 4px 3px rgb(107, 242, 242);
+border: none;
+outline: none;
+border-radius: 5px;
+}
+.first{
+    display: flex;
+align-items: center;
+justify-content: center;
+gap: 170px;
+margin-top: 100px;
+
+}
+.cv button:hover{
+    opacity: 80%;
+
+}
+.cv button:active{
+    box-shadow: 2px 6px 14px 7px rgb(121, 123, 123);
+}
+.cv button{
+    border-radius: 3px;
+border: none;
+padding: 6px 91px;
+margin-top: 30px;
+background-color: rgb(107, 242, 242);
+cursor: pointer;
+}
+.cv a{
+text-decoration: none;
+color: rgb(6, 6, 44);
+}
+.first-heading{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+font-size: 20px;
+text-decoration: underline;
+text-underline-offset: 5px;
+text-decoration-color: rgb(107,242,242);
+}
+.main-content{
+font-size: 18px;
+font-weight: 600;
+font-family: cursive;
+display: flex;
+justify-content: center;
+margin-top: 30px;
+text-decoration: underline;
+text-decoration-color: rgb(107, 242, 242) ;
+text-underline-offset: 5px;
+}
+.seo .line-1{
+height: 10px;
+width: 200px;
+border: 0.1px solid rgb(107, 242, 242);
+border-radius: 5px;
+background: linear-gradient(to left, #f6d8d8 20%, rgb(107,242,242) 60%);
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(6, 6, 44); 
+
+}
+.seo{
+box-shadow: 2px 6px 14px 7px rgb(107, 242, 242);
+height: 205px;
+width: 300px;
+margin-left: 20px;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.wordpress-section {
+box-shadow: 2px 6px 14px 7px rgb(107, 242, 242);
+height: 205px;
+width: 300px;
+margin-left: 20px;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.wordpress-section .line-2{
+height: 10px;
+width: 200px;
+border: 0.1px solid rgb(107, 242, 242);
+border-radius: 5px;
+background: linear-gradient(to left, #f6d8d8 30%, rgb(107,242,242) 60%);
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(6, 6, 44); 
+}
+.google-sheets{
+box-shadow: 2px 6px 14px 7px rgb(107, 242, 242);
+height: 205px;
+width: 300px;
+margin-left: 20px;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.google-sheets .line-3{
+height: 10px;
+width: 200px;
+border: 0.1px solid rgb(107, 242, 242);
+border-radius: 5px;
+background: linear-gradient(to left, #f6d8d8 30%, rgb(107,242,242) 60%);
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(6, 6, 44);
+}
+.typingspeed-section {
+box-shadow: 2px 6px 14px 7px rgb(107, 242, 242);
+height: 205px;
+width: 300px;
+margin-left: 20px;
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.typingspeed-section .line-2{
+height: 10px;
+width: 200px;
+border: 0.1px solid rgb(107, 242, 242);
+border-radius: 5px;
+background: linear-gradient(to left, #f6d8d8 30%, rgb(107,242,242) 60%);
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(6, 6, 44); 
+}
+.experience{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+gap: 50px;
+}
+.name-1{
+color: white;
+font-family: cursive;
+font-weight: 700;
+}
+.name-2{
+color: white;
+font-family: cursive;
+font-weight: 700;
+}
+.name-3{
+color: white;
+font-family: cursive;
+font-weight: 700;
+}
+.second .experience{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.second .heading-101{
+text-decoration: underline;
+text-decoration-color: rgb(107, 242, 242);
+text-underline-offset: 4px;
+font-size: 20px;
+}
+.second .experience u{
+text-underline-offset: 3px;
+text-decoration-color: rgb(107, 242, 242);
+}
+.second .experience .content-101{
+font-size: 19px;
+line-height: 25px;
+width: 500px;
+}
+.second .education{
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-top: 70px;
+
+}
+.second .education .content-102{
+font-size: 20px;
+line-height: 25px;
+width: 500px;
+}
+.second .education .matric{
+text-decoration: underline;
+text-underline-offset: 4px;
+text-decoration-color: rgb(107, 242, 242);
+font-size: 19px;
+}
+.forth button:hover{
+    background-color: rgb(107, 242, 242);
+}
+.second .heading-102{
+text-decoration: underline;
+text-decoration-color: rgb(107, 242, 242);
+text-underline-offset: 4px;
+font-size: 20px;
+
+}
+.content-102 .inter{
+text-underline-offset: 3px;
+}
+.forth .form-heading{
+text-decoration: underline;
+text-decoration-color: rgb(107, 242, 242);
+text-underline-offset: 4px;
+font-family: cursive;
+font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+.forth form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+}
+input{
+width: 800px;
+height: 50px;
+border: none;
+border-radius: 50px;
+padding-left: 10px;
+color: rgb(6, 6, 44);
+font-family: cursive;
+
+}
+input::selection{
+background-color: rgb(107, 242, 242);
+}
+input:focus{
+border: none;
+outline: none;
+box-shadow: 2px 2px 14px 7px rgb(107, 242, 242);
+color: rgb(6, 6, 44);
+font-family: cursive;
+
+}
+.message{
+width: 800px;
+height: 150px;
+border: none;
+border-radius: 0px;
+padding-left: 10px;
+color: rgb(6, 6, 44);
+font-family: cursive; 
+}
+.forth button{
+padding: 8px 70px;
+margin-bottom: 10px;
+border: none;
+border-radius: 28px;
+cursor: pointer;
+font-size: 20px;
+font-weight: 700;
+}
+.contact-material{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 10px;
+
+}
+.img-instagram:hover{
+filter: opacity(60%);
+}
+.img-facebook:hover{
+filter: opacity(60%);
+
+}.img-whatsapp:hover{
+filter: opacity(60%);
+
+}
+.footer-info{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 10px;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 600;
+color: rgb(107, 242, 242);
+}
+@media screen and (max-width: 480px) {
+header nav .left{
+visibility: hidden;
+display: none;
+
+}
+.second .experience .content-101{
+font-size: 14px;
+width: 300px;
+}
+.second .first-heading{
+font-size: 16px;
+text-align: center;
+}
+.second .education .content-102{
+font-size: 14px;
+width: 300px;
+margin-top: 5px;
+}
+.education .matric, .inter{
+text-align: center;
+margin:5px 0px;
+}
+.content-102 .top, .middle{
+text-align:center;
+}
+.third .experience{
+flex-direction:column;
+}
+.forth form input{
+width:400px;
+}
+header nav ul{
+font-size: 12px;
+}
+/* header nav ul li:active{
+font-size: 10px;
+text-decoration: underline;
+text-decoration-color: rgb(107, 242, 242);
+} */
+
+
+}
+@media screen and (max-width: 1400px){
+main .first{
+    flex-direction: column;
+}
+main .second{
+    flex-direction: column;
+}
+}
+@media screen and (max-width:670px){
+.second .experience{
+    display: flex;
+    flex-direction: column;
+}
+.second .education{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen and (max-width:400px){
+.first .content .cv button{
+padding: 10px 54px;
+    margin: 30px 50px;
+}
+.first .content .material{
+text-align: center;
+font-size: 20px;
+
+}
+.forth form input{
+width: 330px;
+}
+}

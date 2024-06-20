@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <nav>
+            <div class="left">M Zohaib Irshad</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section4">Get in Touch!</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section class="first" id="section1">
+            <div class="content"><div class="material">Hey, I am M Zohaib Irshad a professional  <span id="element"></span></div>
+            <div class="cv"><a href="images/cv.pdf"><button><h2>Download Resume</h2></button></a></div></div>
+            
+            <div class="my-image"><img src="images/my.jpg" width="300px" height="400px" alt=""></div>
+        </section>
+        <section class="second" id="section2">
+            <div class="first-heading"><h1>I work with passion, discipline, and confidence.</h1></div>
+            <div class="experience">
+                <div class="heading-101"><h3>Experience</h3></div>
+                <div class="content-101">I joined <u>SARTE Digital Marketing </u>as a SEO Blog Writer in October 2023. I worked in this company for 8 months on different sites including Dafontnew, FreeFontsFamily, and Cufonts.</div>
+            </div>
+            <div class="education">
+                <div class="heading-102"><h3>Education</h3></div>
+                <div class="content-102"><div class="matric"><u>Matriculation</u></div>
+                <div class="top">I topped School in Matric with 1077/1100.</div>
+                <div class="inter"><u>FSC (Pre_Engineering)</u></div>
+                <div class="middle">I got 886/1100 numbers in FSC.</div>
+
+                </div>
+            </div>
+        </section>
+        <section class="third" id="section3">
+            <div class="main-content">I have practical experience in:</div>
+            <div class="experience">
+                <div class="seo">
+                    <div class="name-1">SEO</div>
+                    <div class="seo-image"><img width="150px" height="150px" src="images/seo.1.png" alt=""></div>
+                    <div class="line-1">
+                        80%
+                    </div>
+                </div>
+                <div class="wordpress-section">
+                    <div class="name-2">Wordpress</div>
+                    <div class="wordpress">
+                        <img src="images/wordpress.png" width="150px" height="150px" alt="">
+                    </div>
+                    <div class="line-2">
+                        60%
+                    </div>
+                </div>
+                <div class="google-sheets">
+                    <div class="name-3">Google Sheets</div>
+                    <div class="sheet"><img src="images/google.png" width="150px" height="150px" alt=""></div>
+                    <div class="line-3">80%</div>
+                </div>
+                <div class="typingspeed-section">
+                    <div class="name-2">Typing Speed</div>
+                    <div class="Typing">
+                        <img src="images/speed.png" width="150px" height="150px" alt="">
+                    </div>
+                    <div class="line-2">
+                        Latest:51wpm
+                    </div>
+            </div>
+        </section>
+        <section class="forth" id="section4">
+            <div class="form-heading">
+                <h2>Get In Touch!</h2>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c82b0da1-7eab-45f0-ac61-0902d72ca2c3">
+            <label for="name">Name</label>
+            <input name="Name" type="text" placeholder="Enter Your Name.." required>
+            <label for="number">Whatsapp Number (Optional)</label>
+            <input name="Whatsapp" type="number" placeholder="Enter Your Whatsapp number..">
+            <label for="email">Email</label>
+            <input name="Email" type="email" placeholder="Enter Your Email.." required>
+            <label for="message">Message</label>
+            <input name="Message" class="message" type="message" placeholder="Enter Your message.." required>
+            <button>Submit</button></form>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-material">
+            <div class="img-instagram"><a href="https://www.instagram.com/itx_zohaib6523?igsh=MXhqamhzeWZoMZV3cQ=="><img src="images/instagram.png" width="120px" height="120px" alt=""></a></div>
+        <div class="img-whatsapp"><a href="https://wa.me/+923036512058"><img src="images/whatsapp.png" width="150px" height="150px" alt=""></a></div>
+        <div class="img-facebook"><a href="https://www.facebook.com/profile.php?id=61556087154077"><img src="images/facebook.png" width="100px" height="100px" alt=""></a></div>
+        </div>
+        <hr>
+        <div class="footer-info">
+            <p>&#169; Copyright Muhammad Zohaib Irshad. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['WordPress', 'SEO','Content Writer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
